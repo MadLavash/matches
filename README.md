@@ -1,26 +1,16 @@
 # Matches
-Пример небольшой игры. Код был полностью написан мной.
+Game was created as task project.
 
-Игра создавалась по нижеследующему ТЗ и полностью удовлетворяет его условия.
+Task was containing next conditions:
+- Random number of matches (20 - 45 pcs.) is laid down at the beginning of the game.
+- Player and computer take matches in turns. First turn is always for player.
+- On first turn player can take 1 - 3 matches.
+- On each next level player or computer can take from n-1 to n+1, where n is number of matches taken in previous turn.
+- The one wins, who takes last matches.
 
-### Правила игры.
-На стол выкладывается случайное число спичек (от 20 до 45). Человек и компьютер ходят по-
-очереди, на каждом ходу убирая со стола определённое число спичек. Первым ходит человек.
-Первым ходом можно убрать от одной до трёх спичек. На каждом последующем ходе можно
-убрать от n-1 до n+1 спичек, но не менее 1 (n – количество спичек, убранных противником на
-предыдущем ходу). Выигрывает игрок, убравший последние спички.
+Special condition:
+- Create AI, that will make the most optimal turns and win, if number of matches allows it. 
+- Limitation: AI turn should take less than 2 seconds (on computer with Intel i7 3.5GHz)
 
-### Требования к программе.
-Игра должна быть написана на Unity3d. Необходимо отображать оставшиеся спички и количество
-спичек, взятых противником. Не стоит акцентироваться на визуальных эффектах и красивостях, но
-тем не менее интерфейс должен быть визуальным, управление осуществляться с помощью
-мыши. По окончанию игры вывести надпись: «Вы победили!» или «Вы проиграли!» в зависимости
-от результатов игры.
-
-### Важно (выполнение следующего пункта даст вам огромный плюс при рассмотрении вашей кандидатуры):
-Разработать логику для AI таким образом, чтобы всегда выбирался оптимальный ход из
-возможных. Т.е. компьютер должен выигрывать всегда, если начальное количество спичек это
-позволяет (даже при оптимальной игре человека). Ограничение времени на ход компьютера: 2
-секунды (на intel i7 3.5GHz).
-Необходимые для решения темы: программирование игр двух лиц с полной информацией,
-элементы динамического программирования
+Note:
+- Special condition was successfuly completed, but because of defect in conditions, there is always presented one same way to beat computer.
