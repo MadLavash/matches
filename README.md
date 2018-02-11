@@ -14,3 +14,5 @@ Special condition:
 
 Note:
 - Special condition was successfuly completed, but because of defect in conditions, there is always presented one same way to beat computer.
+
+Unity 5.4.1f1
